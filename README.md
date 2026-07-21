@@ -82,20 +82,6 @@ sequenceDiagram
 
 ---
 
-## 📁 Project Structure
-
-```
-ai-sql-query-assistant/
-├── app.py              # Main Streamlit application
-├── create_db.py        # Script to generate the sample SQLite database
-├── requirements.txt    # Python dependencies
-├── README.md           # This file
-├── .gitignore          # Files/folders excluded from git
-├── screenshots/        # App screenshots (photo1.png ... photo8.png)
-└── demo/               # Demo video (or see "Demo" section for a hosted link)
-```
-
----
 
 ## ⚙️ Setup & Installation
 
@@ -158,36 +144,18 @@ Paste your Groq API key into the sidebar when the app opens in your browser.
 
 | | | |
 |---|---|---|
-| ![Screenshot 1](screenshots/photo1.png) | ![Screenshot 2](screenshots/photo2.png) | ![Screenshot 3](screenshots/photo3.png) |
-| ![Screenshot 4](screenshots/photo4.png) | ![Screenshot 5](screenshots/photo5.png) | ![Screenshot 6](screenshots/photo6.png) |
-| ![Screenshot 7](screenshots/photo7.png) | ![Screenshot 8](screenshots/photo8.png) | |
+| ![Screenshot 1](Screenshots/photo1.png) | ![Screenshot 2](Screenshots/photo2.png) | ![Screenshot 3](Screenshots/photo3.png) |
+| ![Screenshot 4](Screenshots/photo4.png) | ![Screenshot 5](Screenshots/photo5.png) | ![Screenshot 6](Screenshots/photo6.png) |
+| ![Screenshot 7](Screenshots/photo7.png) | ![Screenshot 8](Screenshots/photo8.png) | |
 
-> Place your `photo1.png` – `photo8.png` files inside a `screenshots/` folder at the project root for these to render on GitHub.
-
+> Screenshots live in the `Screenshots/` folder (capital S) at the project root.
 ---
 
 ## 🎥 Demo
 
-**Option A — Small video file (a few MB), committed to the repo:**
+[▶️ Watch the demo](Langchain_demo.mp4)
 
-Place the file at `demo/Langchain_demo.mp4` and link it here:
-
-```markdown
-[▶️ Watch the demo](demo/Langchain_demo.mp4)
-```
-(Note: GitHub does not play video files inline in the README preview — this creates a download/view link.)
-
-**Option B — Larger video, hosted externally (recommended):**
-
-Upload to YouTube, Google Drive, or Loom, then embed a thumbnail-linked preview:
-
-```markdown
-[![Watch the demo](https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](https://www.youtube.com/watch?v=<VIDEO_ID>)
-```
-
-> GitHub does not accept git pushes over 100MB, and large files slow down cloning even under that limit. If your `Langchain_demo` file is more than ~10MB, use Option B.
-
----
+> The demo video is at the repo root as `Langchain_demo.mp4`, not inside a `demo/` subfolder.
 
 ## 🛠️ Tech Stack
 
