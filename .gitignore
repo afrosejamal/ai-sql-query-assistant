@@ -1,0 +1,37 @@
+# --- Secrets & credentials ---
+.env
+.streamlit/secrets.toml
+*.key
+
+# --- Generated database (recreate with create_db.py) ---
+company.db
+*.sqlite
+*.sqlite3
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- IDE / OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Logs ---
+*.log
